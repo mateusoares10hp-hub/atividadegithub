@@ -11,7 +11,7 @@ class GithubProjectApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'GitHub Project UI',
+      title: 'GitHub Project UI Insano',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFF24292F),
@@ -49,7 +49,7 @@ class ProjectHomePage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               const Text(
-                'Flutter + Github',
+                'Flutter + Github + Teste',
                 style: TextStyle(
                   fontSize: 26,
                   fontWeight: FontWeight.bold,
