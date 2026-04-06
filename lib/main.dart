@@ -51,7 +51,7 @@ class ProjectHomePage extends StatelessWidget {
               const Text(
                 'Flutter + Github + Teste',
                 style: TextStyle(
-                  fontSize: 26,
+                  fontSize: 29,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
@@ -60,7 +60,10 @@ class ProjectHomePage extends StatelessWidget {
               const Text(
                 'flutter e github tlgd doido demaisssssss kkkkkkk',
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 16, color: Colors.grey),
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Color.fromARGB(255, 255, 0, 200),
+                ),
               ),
               const SizedBox(height: 30),
               ElevatedButton.icon(
