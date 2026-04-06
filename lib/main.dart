@@ -14,7 +14,7 @@ class GithubProjectApp extends StatelessWidget {
       title: 'GitHub Project UI Insano',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF24292F),
+          seedColor: const Color.fromARGB(255, 0, 115, 255),
           brightness: Brightness.dark,
         ),
         scaffoldBackgroundColor: const Color(0xFF0D1117),
@@ -45,7 +45,7 @@ class ProjectHomePage extends StatelessWidget {
               const Icon(
                 Icons.collections_bookmark_outlined,
                 size: 80,
-                color: Colors.blueAccent,
+                color: Color.fromARGB(255, 11, 77, 190),
               ),
               const SizedBox(height: 20),
               const Text(
@@ -62,7 +62,7 @@ class ProjectHomePage extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 16,
-                  color: Color.fromARGB(255, 255, 0, 200),
+                  color: Color.fromARGB(255, 37, 3, 30),
                 ),
               ),
               const SizedBox(height: 30),
@@ -71,8 +71,8 @@ class ProjectHomePage extends StatelessWidget {
                 icon: const Icon(Icons.star_border),
                 label: const Text('Favoritar legal'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFF21262D),
-                  foregroundColor: Colors.white,
+                  backgroundColor: const Color.fromARGB(255, 179, 185, 194),
+                  foregroundColor: const Color.fromARGB(255, 48, 14, 14),
                   padding: const EdgeInsets.symmetric(
                     horizontal: 24,
                     vertical: 12,
